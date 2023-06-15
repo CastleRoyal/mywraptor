@@ -107,14 +107,7 @@
 					</td>
 				</tr>
 				
-	
-			
-					
-			</table>
-		</form>		
-		
-		
-		<c:choose>
+				<c:choose>
 	<c:when test="${param.msg eq 'ok'}">
 		<div id="msg">회원가입이 정상적으로 이루어졌습니다</div>
 	</c:when>
@@ -122,6 +115,14 @@
 		<div id="msg">회원정보가 없거나 아이디나 비밀번호가 일치하지 않습니다</div>
 	</c:when>
 		</c:choose> 
+	
+			
+					
+			</table>
+		</form>		
+		
+		
+		
 
 
 	</div>

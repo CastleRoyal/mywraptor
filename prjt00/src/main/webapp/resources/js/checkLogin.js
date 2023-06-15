@@ -1,6 +1,6 @@
 window.onload = function(){
 	
-	let s_btn = login_p.login_btn;//로그인 버튼
+	let s_btn = login_p.log_btn;//로그인 버튼
 	s_btn.addEventListener("click", checkInput);
 	
 }

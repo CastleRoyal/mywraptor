@@ -5,6 +5,126 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+<style>
+
+#tbl_img{
+	position:absolute;
+	width: 100%;
+	height: 600px;
+}
+
+#image{
+	position:absolute;
+	width: 500px;
+	height: 300px;
+	left:350px;
+
+}
+
+#image2{
+	position: absolute;
+	width: 400px;
+	height: 300;
+}
+#text{
+	font: bold 25px Arial, Sans-serif;
+	color: blue;
+
+}
+#text2{
+	font: bold 25px Arial, Sans-serif;
+	color: blue;
+
+}
+#text3{
+	font: bold 25px Arial, Sans-serif;
+	color: blue;
+
+}
+
+.menu1{
+	width: 100px;
+	height:30px;
+	background-color:rgb(64, 64, 64);
+	color: white;
+	text-align: center;
+	
+}
+
+.menu2{
+	width: 125px;
+	height:30px;
+	background-color:rgb(64, 64, 64);
+	color: white;
+	text-align: center;
+
+
+}
+
+.menu3{
+	width: 200px;
+	height:30px;
+	background-color:rgb(64, 64, 64);
+	color: white;
+	text-align: center;
+}
+
+#c_news{
+	margin-left:200px;
+}
+#review{
+
+
+
+}
+
+#tip{
+
+
+}
+
+#qna{
+
+
+}
+
+#freeboard{
+	margin-left:400px;
+	margin-bottom:500px;
+
+}
+
+#traffic{
+
+
+}
+
+#c_flaw{
+
+
+}
+
+#picture{
+
+}
+
+#etc_pic{
+
+
+}
+
+
+
+
+
+
+
+</style>
+
+
+
+
+
 </head>
 <body>
 

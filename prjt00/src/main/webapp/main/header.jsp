@@ -18,7 +18,7 @@
 		height: 100px;
 		position:absolute;
 		margin-top: 55px;
-		margin-left: 170px;
+		margin-left: 120px;
 	}
 
 	#header_box{
@@ -30,8 +30,8 @@
 		color: white;
 		font-size: 30px;
 		font-weight: bold;
-		margin-left: 340px;
-		margin-top: 65px;
+		margin-left: 275px;
+		margin-top: 70px;
 		
 	}
 
@@ -45,7 +45,7 @@
 
 	#login_go{
 		position: absolute;
-		margin-left: 940px;
+		margin-left: 800px;
 		top: 30px;
 		width: 100px;
 		height: 35px;
@@ -55,7 +55,7 @@
 	}
 	#join_go{
 		position: absolute;
-		margin-left: 1050px;
+		margin-left: 910px;
 		top: 30px;
 		width: 100px;
 		height: 35px;
@@ -68,7 +68,7 @@
 		position: absolute;
 		width: 15%;
 		height: 30px;
-		margin-left: 870px;
+		margin-left: 760px;
 		top: 100px;
 		border-radius: 12px;
 		
@@ -78,7 +78,7 @@
 		position:absolute;
 		width: 70px;
 		height: 35px;
-		margin-left: 1070px;
+		margin-left: 940px;
 		top: 100px;
 		background-color:gray;
 		border-radius: 10px;
@@ -94,29 +94,29 @@
 	}
 	#a_home{
 		position:absolute;
-		left:150px;
+		left:90px;
 		top:195px;
 		
 	}
 	#a_carInfo{
 	position:absolute;
-	left:350px;
+	left:290px;
 	top:195px;
 	
 	}
 	#a_community{
 	position:absolute;
-	left:550px;
+	left:490px;
 	top:195px;
 	}
 	#a_galary{
 	position:absolute;
-	left:750px;
+	left:690px;
 	top:195px;
 	}
 	#a_MY{
 	position:absolute;
-	left:950px;
+	left:890px;
 	top:195px;
 	}
 	#logout{
@@ -141,7 +141,7 @@
 
 <c:choose>
 	<c:when test="${!empty member}">
-		<div id="header_box" onClick="location.href=../index.jsp">
+		<div id="header_box" >
 	<img src="../resources/img/logo.png">&nbsp;<h2>자동차 정보공유 사이트</h2>
 	
 	<input type="button" id="logout" value="로그아웃" onClick="location.href='../member/logout.jsp'">

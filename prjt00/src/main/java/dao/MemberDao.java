@@ -139,12 +139,12 @@ public class MemberDao extends DBConnectionPool {
 						member.setGender(rs.getInt("gender"));
 						member.setPhone(rs.getString("phone"));
 						member.setEmail(rs.getString("email"));
+						member.setGrade(rs.getInt("grade"));
 						member.setJoin_date(rs.getDate("join_date"));
 						member.setUpdate_date(rs.getDate("update_date"));
 						member.setCancel_date(rs.getDate("cancel_date"));
 						member.setCancel_or_not(rs.getBoolean("cancel_or_not"));
-						member.setGrade(rs.getInt("grade"));
-			
+						
 					}
 				}catch(Exception e) {
 					e.printStackTrace();

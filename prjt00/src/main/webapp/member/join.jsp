@@ -72,7 +72,7 @@
 	#member_pw{
 		margin-left:135px;
 	}
-	#nickname{
+	#nicknm{
 		margin-left:155px;
 	}
 	

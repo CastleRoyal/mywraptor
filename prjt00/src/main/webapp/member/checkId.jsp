@@ -1,6 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>  
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,7 +9,7 @@
 <title>아이디 중복검사</title>
     <script>
         function okId(id){
-            opener.document.frm_join.confirm_id.value=id;
+            opener.document.join_p.confirm_id.value=id;
             self.close();
         }
     </script>
@@ -38,7 +39,7 @@
             <input type="submit" value="중복검사"><br>
             <label>
                 <c:choose>
-                    <c:when test="${param.result == 1}">
+                    <c:when> test="${param.result == 1}">
                         <script>
                             opener.document.join_p.member_id.value="";
                         </script>
