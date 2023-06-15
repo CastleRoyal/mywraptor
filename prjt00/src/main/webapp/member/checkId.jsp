@@ -39,7 +39,7 @@
             <input type="submit" value="중복검사"><br>
             <label>
                 <c:choose>
-                    <c:when> test="${param.result == 1}">
+                    <c:when test="${param.result == 1}">
                         <script>
                             opener.document.join_p.member_id.value="";
                         </script>
